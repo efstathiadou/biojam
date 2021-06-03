@@ -25,5 +25,15 @@ public class Product {
 		this.quantity = quantity;
 	}
 	
+	public void printCreated()
+	{
+		System.out.println("Object "+ this.name + " created successfully");
+	}
 	
+	public void printInfo()
+	{
+		System.out.println("-------------");
+		System.out.println("Name: " + this.getName());
+		System.out.println("Quantity " + this.getQuantity());
+	}
 }
