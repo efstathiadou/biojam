@@ -14,7 +14,6 @@ public class Main {
 		jam3.printCreated();
 		jam4.printCreated();
 
-		
 		ArrayList<Product> productCatalog = new ArrayList<Product>();
 		productCatalog.add(jam1);
 		productCatalog.add(jam2);
@@ -29,7 +28,7 @@ public class Main {
 
 		ArrayList<Customer> customerCatalog = new ArrayList<Customer>();
 		customerCatalog.add(customer1);
-		customerCatalog.add(customer1);
+		customerCatalog.add(customer2);
 		
 		Order order1 = new Order (customer1);
 		Order order2 = new Order (customer1);
@@ -60,7 +59,6 @@ public class Main {
 		order3.printCreated();
 		order4.printCreated();
 		
-		order2=null;
 		System.out.println("Order2 deleted ");
 		
 		ordersList.remove(order2);
@@ -83,8 +81,6 @@ public class Main {
 			customerCatalog.get(i).printInfo();
 		}
 		
-		
 	}
 
-	
 }
